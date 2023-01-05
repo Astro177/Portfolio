@@ -18,6 +18,13 @@ line-height: 150%;
     padding: 10px 22px;
 
 }
+.header{
+    background: #E5E5E5;
+    background-image: url('../images/header_bg.png'), url('../images/developer.png');
+    background-repeat: no-repeat;
+    background-position: bottom right, left;
+    background-size: contain;
+}
 nav{
     display: flex;
     justify-content: space-between;
@@ -41,4 +48,75 @@ nav li{
     margin: 0px 112px;
     display:flex ;
     align-items: center
+}
+.ui{
+    color: #FDC435;
+    margin-bottom: 30px;
+}
+.web-title{
+    font-weight: 300;
+    font-size: 30px;
+    line-height: 80%
+}
+.my-name{
+    font-weight: 700;
+font-size: 64px;
+line-height: 120%;
+margin-bottom: 20px;
+}
+.banner-description{
+    color: #828282;
+    margin-bottom: 30px;
+}
+.pro{
+    padding: 10px 20px;
+    margin-left: 10px;
+    border:40%;
+    box-shadow: #FDC435;
+}
+/* main section */
+main{
+    max-width: 1140px;
+ margin: 0 auto;
+}
+/* myself section styles */
+.myself{
+margin-top: 125px;
+background: #F9FAFF;
+border-radius: 10px;
+padding: 130px 150px;
+}
+
+.section-title{
+text-align: center;
+font-weight: 700;
+font-size: 35px;
+margin-bottom: 30px;
+}
+
+.section-description{
+color: #828282;
+font-size: 18px;
+margin-bottom: 30px;
+text-align: center;
+
+}
+.about-info-container{
+    display: flex;
+    justify-content: space-around;
+}
+.myself .info-title{
+    font-size: 20px;
+    color: #757575;
+    margin-top: 30px;
+
+}
+.info-description{
+    font-weight: 700;
+    font-size: 20px;
+    color: #474747;
+ 
+}
+.info-title{
+    text-align: center;
 }
