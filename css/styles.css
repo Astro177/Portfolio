@@ -4,6 +4,20 @@
 
 }
 /* header and navigation styles */
+.text-primary{
+    color: #FDC435;
+}
+.btn-primary{
+    color: #000000;
+    font-weight: 500;
+font-size: 18px;
+line-height: 150%;
+    border-radius: 5px;
+    background: #FDC435;
+    border: 0;
+    padding: 10px 22px;
+
+}
 nav{
     display: flex;
     justify-content: space-between;
@@ -15,10 +29,16 @@ nav{
 }
 nav ul{
     display: flex;
+    align-items: center;
 }
 nav li{
     list-style: none;
+    margin-left: 50px;
+
 }
-.text-primary{
-    color: #FDC435;
+/* banner styles */
+.banner{
+    margin: 0px 112px;
+    display:flex ;
+    align-items: center
 }
