@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    font-family: 'Playfair Display', serif;
+
+}
+/* header and navigation styles */
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin: 12px 120px;
+}
+.nav-title {
+    height: 56px;
+
+}
+nav ul{
+    display: flex;
+}
+nav li{
+    list-style: none;
+}
+.text-primary{
+    color: #FDC435;
+}
